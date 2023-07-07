@@ -1,0 +1,64 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('img/miguel-bruna-TzVN0xQhWaQ-unsplash.jpg') no-repeat center center/ cover;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #111;
+    color: #111;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 100%;
+    padding: 50px 40px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #cb117a;
+}
+
+.main-content .bible-verse {
+    font-size: 1.6rem;
+    color: red;
+    margin-top: 20px;
+}
+
+.button-area #new-verse {
+    background: red;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+#new-verse:active {
+    background: #111;
+}
